@@ -421,7 +421,7 @@
         "uuid": "1616dc5f-d7c8-49f6-953d-88d3d784bb93"
       }
     ],
-    "used_designators": "I2C2_CONN1,DynamixelCon2,LED2-5,F1-2,#PWR1-4,#PWR6-11,#PWR13-18,#PWR33-51,#PWR64-76,#PWR78-89,#PWR118-123,#PWR144-150,#PWR155-163,C1-8,C33-34,C39-44,C47-52,C61,C7_TANTAL1,R1-13,R23-34,R39-48,R51-56,R63-66,JP1-2,M_CONN1-6,D26-27,U2,U13,U16-19,U21,USB1,J1,I2C1_CONN1,CN1-2,U2.1-4,Con1-3,SW1-2,L1,X1-2",
+    "used_designators": "Con9",
     "variants": []
   },
   "sheets": [

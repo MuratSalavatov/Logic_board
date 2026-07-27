@@ -1,6 +1,7 @@
 # KiCad временные и резервные файлы
 *-backups/
 *-backup/
+.history/
 *.bak
 *.bck
 *.tmp
@@ -10,8 +11,6 @@
 *.kicad_sch-bak
 *.kicad_pcb-bck
 *.kicad_sch-bck
-*.pretty/
-*.kicad_mod
 *-cache.lib
 fp-info-cache
 
