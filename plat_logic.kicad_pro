@@ -216,7 +216,7 @@
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -233,15 +233,15 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_not_driven": "ignore",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -294,6 +294,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -421,7 +422,7 @@
         "uuid": "1616dc5f-d7c8-49f6-953d-88d3d784bb93"
       }
     ],
-    "used_designators": "Con9",
+    "used_designators": "con2,L1,D1-5,Con1,Con9,R1-22,R25-27,R59-66,R71-82,J2-14,Y1-2,SW1-2,C1-25,C53-68,F1,#PWR25,#PWR45-49,#PWR51,#PWR70-72,#PWR81,#PWR119,#PWR169-177",
     "variants": []
   },
   "sheets": [
