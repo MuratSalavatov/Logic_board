@@ -4947,6 +4947,12 @@
 		(uuid "31758063-83c7-4947-b4b8-02edcfa48478")
 	)
 	(junction
+		(at 190.5 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e2b289e-ad91-436f-b8a1-340ddcc570ee")
+	)
+	(junction
 		(at 53.34 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5007,10 +5013,10 @@
 		(uuid "a3a00284-c296-448c-94c0-9379b3fc0fd4")
 	)
 	(junction
-		(at 190.5 45.72)
+		(at 195.58 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b65fded6-57c7-49da-873c-83803a5d2e08")
+		(uuid "c0476e56-64c0-4f30-a553-689a513ea62f")
 	)
 	(junction
 		(at 73.66 205.74)
@@ -5041,12 +5047,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eba5655e-9b5f-4606-a0f3-18d863915fb7")
-	)
-	(junction
-		(at 195.58 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef79c102-ad17-46d1-8d63-255c3ebf2aa6")
 	)
 	(junction
 		(at 114.3 67.31)
@@ -5243,6 +5243,16 @@
 			(type default)
 		)
 		(uuid "090bbd4e-a572-4a80-bb3f-5f8a21ed1ce4")
+	)
+	(wire
+		(pts
+			(xy 58.42 162.56) (xy 62.23 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b099f97-8993-4618-b225-dfbcd96397e7")
 	)
 	(wire
 		(pts
@@ -5473,16 +5483,6 @@
 			(type default)
 		)
 		(uuid "23b86230-2018-4d24-abf5-ec2036278d55")
-	)
-	(wire
-		(pts
-			(xy 195.58 48.26) (xy 186.69 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24ff2827-1fd0-43fb-85de-da624ec42fd4")
 	)
 	(wire
 		(pts
@@ -6336,6 +6336,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 160.02) (xy 62.23 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700e1dba-f359-446d-be2f-1d3373d28052")
+	)
+	(wire
+		(pts
 			(xy 219.71 170.18) (xy 223.52 170.18)
 		)
 		(stroke
@@ -6996,16 +7006,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 160.02) (xy 62.23 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ada13cbf-5858-435c-bfca-3b19dfb86d66")
-	)
-	(wire
-		(pts
 			(xy 134.62 52.07) (xy 134.62 55.88)
 		)
 		(stroke
@@ -7323,6 +7323,26 @@
 			(type default)
 		)
 		(uuid "c6e148d2-58c0-46a9-b34e-bb074be5580d")
+	)
+	(wire
+		(pts
+			(xy 186.69 48.26) (xy 195.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7bf650b-52b5-4f35-af69-a605e5dcedb7")
+	)
+	(wire
+		(pts
+			(xy 186.69 45.72) (xy 190.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f3e4d1-abba-47c9-8f13-4e28b6a6a4fd")
 	)
 	(wire
 		(pts
@@ -7756,16 +7776,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 45.72) (xy 186.69 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5605b31-e04b-4e27-9c8d-a35b9227e042")
-	)
-	(wire
-		(pts
 			(xy 50.8 59.69) (xy 53.34 59.69)
 		)
 		(stroke
@@ -7833,16 +7843,6 @@
 			(type default)
 		)
 		(uuid "fd50881a-6978-45f4-b3b0-fcfd25c22c8e")
-	)
-	(wire
-		(pts
-			(xy 58.42 162.56) (xy 62.23 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6eda20-a43c-4ce5-bdb4-66c446f970f7")
 	)
 	(wire
 		(pts
@@ -8250,7 +8250,7 @@
 	)
 	(global_label "UART8_RX"
 		(shape input)
-		(at 58.42 162.56 180)
+		(at 58.42 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8259,7 +8259,7 @@
 		)
 		(uuid "283139aa-8b33-4c71-9023-0d31148a2b5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 162.56 0)
+			(at 58.42 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9064,7 +9064,7 @@
 	)
 	(global_label "I2C2_SLC"
 		(shape input)
-		(at 186.69 45.72 180)
+		(at 186.69 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9074,7 +9074,7 @@
 		)
 		(uuid "7586b888-a200-4d5d-8c5e-071ad03d222a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.9358 45.72 0)
+			(at 174.9358 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9804,7 +9804,7 @@
 	)
 	(global_label "UART8_TX"
 		(shape input)
-		(at 58.42 160.02 180)
+		(at 58.42 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9813,7 +9813,7 @@
 		)
 		(uuid "b5a65eb1-0c46-4840-a91d-acf7c02c27b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 160.02 0)
+			(at 58.42 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9898,7 +9898,7 @@
 	)
 	(global_label "I2C2_SDA"
 		(shape input)
-		(at 186.69 48.26 180)
+		(at 186.69 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9908,7 +9908,7 @@
 		)
 		(uuid "bd4bf4a6-8370-41a6-95b4-84fe579d3b18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.8753 48.26 0)
+			(at 174.8753 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

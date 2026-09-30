@@ -6860,7 +6860,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 130.81) (xy 330.2 130.81)
+			(xy 321.31 130.81) (xy 330.2 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8000,7 +8000,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 130.81) (xy 311.15 130.81)
+			(xy 313.69 130.81) (xy 311.15 130.81)
 		)
 		(stroke
 			(width 0)
@@ -20951,7 +20951,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 325.12 130.81 270)
+		(at 317.5 130.81 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20961,7 +20961,7 @@
 		(dnp no)
 		(uuid "afc3a065-f529-441c-ae27-417f0d0a3913")
 		(property "Reference" "R33"
-			(at 330.962 128.778 90)
+			(at 315.722 133.096 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20972,7 +20972,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 330.962 130.556 90)
+			(at 315.722 134.874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20983,7 +20983,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 325.12 129.032 90)
+			(at 317.5 129.032 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20994,7 +20994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 130.81 0)
+			(at 317.5 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21005,7 +21005,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 325.12 130.81 0)
+			(at 317.5 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

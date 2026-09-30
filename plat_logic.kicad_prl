@@ -1,14 +1,14 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
       "GND",
       "+3v3",
-      "UART8_TX",
       "UART8_RX",
+      "UART8_TX",
       "IN1_M5",
       "IN2_M5",
       "FS5",
