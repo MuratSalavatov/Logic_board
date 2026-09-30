@@ -696,7 +696,7 @@
         "uuid": "1616dc5f-d7c8-49f6-953d-88d3d784bb93"
       }
     ],
-    "used_designators": "D1-5,Con2,L1-2,con1,#PWR1-94,I2C2_conn1-4,C1-39,CN1,DynamixelCon1,J1-17,JP1-3,R1-54,SW1-2,U1-3,Y1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

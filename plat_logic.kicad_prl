@@ -7,6 +7,7 @@
     "hidden_nets": [
       "GND",
       "+3v3",
+      "+5v",
       "UART8_RX",
       "UART8_TX",
       "IN1_M5",
