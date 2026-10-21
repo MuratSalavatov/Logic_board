@@ -5752,9 +5752,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "UART7\nSPI2 Идут на ардуину\n"
+	(text "UART7\nSPI2\nI2C2\nИдут на ардуину "
 		(exclude_from_sim no)
-		(at 314.452 232.918 0)
+		(at 308.356 248.666 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14036,7 +14036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "005e8efe-2937-43a8-9657-efc964fcdb49")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 317.246 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -14095,7 +14095,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -14866,7 +14866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e295713-dca9-4e77-81fb-146cd08d645d")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 298.45 211.836 0)
 			(hide yes)
 			(show_name no)
@@ -14925,7 +14925,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -14942,7 +14942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11a32622-8d13-4bcb-a13a-f98907f68876")
-		(property "Reference" "C22"
+		(property "Reference" "C20"
 			(at 282.956 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15004,7 +15004,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C22")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -15022,7 +15022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f449df-7431-48f6-9843-ca804e2eb8c0")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 268.986 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -15081,7 +15081,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -15098,7 +15098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "148d29fb-9021-4981-93e2-c38738da0a74")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 188.722 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15160,7 +15160,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -15178,7 +15178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1589a194-ce47-42ad-a80a-007862e59519")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 83.566 170.688 0)
 			(hide yes)
 			(show_name no)
@@ -15237,7 +15237,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -15255,7 +15255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18d37b29-e8ed-430f-9ecb-7523cdcd6a69")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 241.046 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -15314,7 +15314,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15652,7 +15652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "278f7ab5-7a32-4209-abe8-ba3a766e6ed3")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 342.646 203.708 0)
 			(hide yes)
 			(show_name no)
@@ -15711,7 +15711,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -15729,7 +15729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3442fe22-e43a-4fd0-b159-b0672e7ace3d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 213.106 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -15788,7 +15788,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15806,7 +15806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34e3e1b3-745b-420c-a27f-7c019c736736")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 280.416 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -15865,7 +15865,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -15883,7 +15883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35659eb3-e673-4d2a-a5d8-50d8e86a0bc5")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 126.492 161.036 0)
 			(hide yes)
 			(show_name no)
@@ -15942,7 +15942,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -16120,7 +16120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c142da1-a47b-42ed-b4f0-c68fae8dbf71")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 216.916 257.048 0)
 			(hide yes)
 			(show_name no)
@@ -16179,7 +16179,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -16196,7 +16196,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e508618-b068-46cc-9501-832d4df87151")
-		(property "Reference" "C17"
+		(property "Reference" "C15"
 			(at 234.188 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16258,7 +16258,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C17")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -16276,7 +16276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f1299a0-3daf-469f-b80b-f5163828f08a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 303.022 125.476 0)
 			(hide yes)
 			(show_name no)
@@ -16335,7 +16335,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -16352,7 +16352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43272f73-6c6a-46c9-b568-6831fdd85f1a")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR033"
 			(at 275.336 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -16411,7 +16411,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR036")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -16428,7 +16428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44d1b4fc-570c-4cd8-841f-6b164b001b57")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 110.49 67.564 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16490,7 +16490,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -16508,7 +16508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46cd637b-4b03-4d9f-bfbe-654d22cd69c2")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 314.452 84.836 0)
 			(hide yes)
 			(show_name no)
@@ -16567,7 +16567,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -16585,7 +16585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48697912-ec7f-44e4-98d8-9859b6265214")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 194.056 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -16644,7 +16644,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -16742,7 +16742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49c16bda-e274-4c32-a212-1f80b7043832")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 335.28 128.016 0)
 			(hide yes)
 			(show_name no)
@@ -16801,7 +16801,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16897,7 +16897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5580a9d3-0fc8-4deb-b51b-ab31b003ab87")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 159.004 230.378 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16959,7 +16959,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -16977,7 +16977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "593be826-7691-4d3e-8ea1-0324eee62145")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 223.266 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -17036,7 +17036,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17213,7 +17213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6175ffa6-da4a-4265-9c0f-4852efad0899")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 249.936 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -17272,7 +17272,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -17290,7 +17290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "644833f4-9694-4c0f-ab00-8584059c3b65")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 308.102 168.656 0)
 			(hide yes)
 			(show_name no)
@@ -17349,7 +17349,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -17366,7 +17366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "662e368f-e6cb-4881-92f4-55110a5be2dc")
-		(property "Reference" "C20"
+		(property "Reference" "C18"
 			(at 261.112 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17428,7 +17428,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C20")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -17446,7 +17446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66351830-b4f7-4d93-ae07-dbfec2ee781d")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 153.416 239.268 0)
 			(hide yes)
 			(show_name no)
@@ -17505,7 +17505,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -17523,7 +17523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66a8a46d-82a0-4b12-b0d8-ec1dfc9fc934")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR034"
 			(at 272.034 108.712 0)
 			(hide yes)
 			(show_name no)
@@ -17582,7 +17582,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR037")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -17600,7 +17600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66e66385-6b97-4db0-ad89-6f081dbc1942")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 102.616 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -17659,7 +17659,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -17676,7 +17676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6816d4fc-bfa0-4129-89ad-2476e127413d")
-		(property "Reference" "C26"
+		(property "Reference" "C24"
 			(at 302.768 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17738,7 +17738,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C26")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -17756,7 +17756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c077657-f7aa-46df-8fb4-c10f728d3819")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 300.736 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -17815,7 +17815,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -17832,7 +17832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70eee7a5-36ab-45c3-b50c-46ffce86c95f")
-		(property "Reference" "C28"
+		(property "Reference" "C26"
 			(at 305.816 168.402 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17894,7 +17894,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C28")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -17911,7 +17911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71e6afb5-f48e-4ff8-bcdc-b7526d2c8591")
-		(property "Reference" "C30"
+		(property "Reference" "C28"
 			(at 331.47 181.102 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17973,7 +17973,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C30")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -18075,7 +18075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "739c3f2f-a568-4548-94ee-2369ac4d0c72")
-		(property "Reference" "C25"
+		(property "Reference" "C23"
 			(at 300.228 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18137,7 +18137,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C25")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -18155,7 +18155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7818c28c-af9b-4797-8a2c-bfafc9046191")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 258.826 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -18214,7 +18214,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -18632,7 +18632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e9918cc-c7bd-4190-b56b-cfb06a5b6006")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 105.41 150.114 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18694,7 +18694,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -18712,7 +18712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ffd4f05-91d3-44af-9e0c-47a21879fb9e")
-		(property "Reference" "Y3"
+		(property "Reference" "Y1"
 			(at 86.36 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18779,7 +18779,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "Y3")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -18954,7 +18954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8444c5b3-a854-4c0d-a9d0-66398a6f4eac")
-		(property "Reference" "C18"
+		(property "Reference" "C16"
 			(at 243.078 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19016,7 +19016,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C18")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -19277,7 +19277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "921eb0db-ae8f-4cb6-8a1a-06f6afab34ca")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 294.64 176.276 0)
 			(hide yes)
 			(show_name no)
@@ -19335,7 +19335,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -19848,7 +19848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a0f25d9-5e92-4861-8a98-5d11f8781072")
-		(property "Reference" "C33"
+		(property "Reference" "C31"
 			(at 350.266 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19910,7 +19910,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C33")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -19927,7 +19927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a778543-03a9-4bb4-b41a-24491e7fd765")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 151.384 221.488 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19989,7 +19989,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -20088,7 +20088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ba3d77d-c0b4-4aa7-afb8-89bbaf9d24e3")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 134.62 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20150,7 +20150,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -20167,7 +20167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e0604fb-e051-418c-a975-3892dfd4729b")
-		(property "Reference" "C29"
+		(property "Reference" "C27"
 			(at 305.816 74.676 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20229,7 +20229,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C29")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -20408,7 +20408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1af7a66-8d28-4d66-a455-684415081617")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 251.968 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20470,7 +20470,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -20488,7 +20488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a70a13d2-a6c6-48af-bf94-48c59eab9418")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 130.556 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20547,7 +20547,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -20564,7 +20564,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a96e8f35-5209-4367-b5ac-d9577a9cfccf")
-		(property "Reference" "C32"
+		(property "Reference" "C30"
 			(at 339.344 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20626,7 +20626,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C32")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -20644,7 +20644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a975eeae-f836-461c-8e21-e7225e74eacd")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 73.406 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -20703,7 +20703,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -20817,7 +20817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aef73760-e720-4569-85bf-72b03cca4eef")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 133.35 138.176 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20879,7 +20879,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -20897,7 +20897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af82e1ce-8638-494e-87b1-ef27cefbd51c")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 294.64 74.676 0)
 			(hide yes)
 			(show_name no)
@@ -20955,7 +20955,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -20973,7 +20973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afaaa933-9384-4628-b3e2-20e23bdb9af8")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 304.038 109.474 0)
 			(hide yes)
 			(show_name no)
@@ -21032,7 +21032,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -21292,7 +21292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0e763f0-de26-45aa-9209-ea6a056fa184")
-		(property "Reference" "C23"
+		(property "Reference" "C21"
 			(at 293.116 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21354,7 +21354,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C23")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -21372,7 +21372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5f2ffa1-29c3-4e22-9d5b-621ffc4a2f61")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 117.856 154.178 0)
 			(hide yes)
 			(show_name no)
@@ -21431,7 +21431,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -21448,7 +21448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7896cab-6977-4b3a-bfc0-2e22f7bc4689")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 174.752 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21510,7 +21510,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -21607,7 +21607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba64c4e1-85ee-4951-95f8-2a1d13765014")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 185.166 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21666,7 +21666,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -21998,7 +21998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be146f7e-84aa-4b32-b1a7-f94c625d3546")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 182.626 67.818 0)
 			(hide yes)
 			(show_name no)
@@ -22057,7 +22057,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -22075,7 +22075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be1a7177-c04c-44f8-b5cb-d132b3daf3fa")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 342.646 191.008 0)
 			(hide yes)
 			(show_name no)
@@ -22134,7 +22134,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -22151,7 +22151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be45ed76-c3ed-450f-9aa0-4b0d66924399")
-		(property "Reference" "C24"
+		(property "Reference" "C22"
 			(at 299.974 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22213,7 +22213,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C24")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -22231,7 +22231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfea3eb3-ead7-4a62-bcc8-bc807e8f9cb9")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 318.516 50.038 0)
 			(hide yes)
 			(show_name no)
@@ -22290,7 +22290,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -22308,7 +22308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0b59574-1d1c-40aa-9f7f-f54fab117c0c")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 131.826 90.678 0)
 			(hide yes)
 			(show_name no)
@@ -22367,7 +22367,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -22541,7 +22541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb584fef-36cf-46bc-aa00-b227f600794e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 290.576 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -22600,7 +22600,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -22618,7 +22618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd548de8-5748-4002-b3fa-b3ce6ad0eec1")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 138.43 207.264 0)
 			(hide yes)
 			(show_name no)
@@ -22676,7 +22676,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -22776,7 +22776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf67aae5-b7fe-419a-be82-a6e3a2783a3b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 126.492 173.736 0)
 			(hide yes)
 			(show_name no)
@@ -22835,7 +22835,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -22853,7 +22853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0d7de31-1da1-4823-a224-38941352d6c7")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 82.296 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -22912,7 +22912,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -23098,7 +23098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9bc16f5-c90a-4f3a-8b9f-1fe1a11639f3")
-		(property "Reference" "C21"
+		(property "Reference" "C19"
 			(at 272.542 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23160,7 +23160,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C21")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -23178,7 +23178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd75e09b-4502-48c3-bed4-ab4a7594f9ee")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 121.666 69.088 0)
 			(hide yes)
 			(show_name no)
@@ -23237,7 +23237,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -23254,7 +23254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e033a941-2b2a-4132-a0cf-595a62336330")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 205.486 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23316,7 +23316,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -23333,7 +23333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2392dce-dd19-43c7-93f5-58b8c0976680")
-		(property "Reference" "C31"
+		(property "Reference" "C29"
 			(at 331.47 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23395,7 +23395,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C31")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -23413,7 +23413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e423e53d-e6c4-4c0e-b54b-871c2bebd681")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 127.508 141.224 0)
 			(hide yes)
 			(show_name no)
@@ -23472,7 +23472,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -23489,7 +23489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5dcc7eb-9959-4ea1-b95c-306766be2f56")
-		(property "Reference" "C16"
+		(property "Reference" "C14"
 			(at 225.298 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23551,7 +23551,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C16")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -23568,7 +23568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6cfdb3e-bc52-413b-a1ff-6d79470b544f")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 196.088 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23630,7 +23630,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -23807,7 +23807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0232eeb-d098-41a2-8394-dae9d1b4cbb2")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 133.35 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23869,7 +23869,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -23966,7 +23966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1b5fdd7-19f9-4f24-bfa9-7ac3d28c6796")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 168.656 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -24025,7 +24025,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -24146,7 +24146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f524f26f-b51d-4d3f-9f32-535a651a2a10")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 232.156 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -24205,7 +24205,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -24223,7 +24223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6a1045e-c48a-4ab3-9f55-81ac0ce9b4e8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 202.946 32.258 0)
 			(hide yes)
 			(show_name no)
@@ -24282,7 +24282,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -24299,7 +24299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6d20297-039e-4667-981b-fbf1745196c9")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 215.9 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24361,7 +24361,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C15")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -24379,7 +24379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f813109e-b90d-493c-ade7-ada5af634bd7")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 309.118 151.384 0)
 			(hide yes)
 			(show_name no)
@@ -24438,7 +24438,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -24456,7 +24456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa12e013-1a4a-41f8-8953-632b4930808a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 145.796 231.648 0)
 			(hide yes)
 			(show_name no)
@@ -24515,7 +24515,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -24532,7 +24532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb70d493-514f-4829-972f-4327c845119c")
-		(property "Reference" "C27"
+		(property "Reference" "C25"
 			(at 302.26 147.828 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24594,7 +24594,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "C27")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -24612,7 +24612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffc8b91a-c174-4de2-90fa-d95134dbb904")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 363.22 139.446 0)
 			(hide yes)
 			(show_name no)
@@ -24670,7 +24670,7 @@
 		(instances
 			(project "plat_logic"
 				(path "/0e61609e-a7fa-494d-b85e-0085f54db9bd"
-					(reference "#PWR052")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
