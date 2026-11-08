@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "CastomLibrary") (type "KiCad") (uri "${KIPRJMOD}/CastomLibrary.pretty") (options "") (descr ""))
 	(lib (name "jetBOT_Lib") (type "KiCad") (uri "${KIPRJMOD}/jetBOT_Lib.pretty") (options "") (descr ""))
+	(lib (name "Library_footprints") (type "KiCad") (uri "C:/Users/murka/Desktop/Murat/shem/Library_footprints.pretty") (options "") (descr ""))
 )
